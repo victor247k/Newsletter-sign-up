@@ -151,9 +151,6 @@ input::placeholder {
     max-width: 450px;
     max-height: 500px;
   }
-  .box, .container {
-    transform: scale(0.8);
-  }
 } 
 /* results.html */
 
