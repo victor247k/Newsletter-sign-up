@@ -82,6 +82,13 @@ label {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+.errorMessage {
+  display: none;
+  color: var(--clr-primary-tomato);
+  font-weight: 700;
 }
 input {
   background-color: transparent;
