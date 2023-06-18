@@ -31,13 +31,10 @@ ul {
   --clr-charcoal-gray: hsl(235, 18%, 26%);
   --clr-gray: hsl(231, 7%, 60%);
 }
-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.desktopImg, .mobileImg {
   margin: 0 auto 2rem;
 }
-picture img:nth-child(2) {
+.desktopImg {
   display: none;
 }
 .container {
@@ -134,17 +131,17 @@ input::placeholder {
     align-items: center;
     margin: 1rem;
   }
-  picture {
+  .desktopImg, .mobileImg {
     margin: 1rem 0;
   }
   h1, .description, .line, form{
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
-  picture img:nth-child(1) {
+  .mobileImg {
     display: none;
   }
-  picture img:nth-child(2) {
+  .desktopImg {
     display: block;
   }
   .box {
