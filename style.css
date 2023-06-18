@@ -145,7 +145,7 @@ input::placeholder {
     max-height: 500px;
   }
   .box, .container {
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 } 
 /* results.html */
